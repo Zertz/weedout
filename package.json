@@ -2,7 +2,7 @@
   "name": "weedout",
   "version": "0.1.0",
   "description": "Removes the value at the specified path, also traversing object arrays.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "standard",
     "compile": "babel src -d lib",
