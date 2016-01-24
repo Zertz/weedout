@@ -1,3 +1,5 @@
+'use strict';
+
 (() => {
   let weedout = function (obj, path) {
     const keys = path.split('.')
@@ -21,5 +23,5 @@
     return obj
   }
 
-  return weedout
+  module.exports = weedout
 })()

@@ -1,7 +1,9 @@
+'use strict'
+
 const assert = require('assert')
 
 describe('weedout', () => {
-  const weedout = require('../src')
+  const weedout = require('../lib')
 
   it('removes root keys', () => {
     let src = {
