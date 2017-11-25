@@ -21,6 +21,9 @@
     "url": "https://github.com/Zertz/weedout"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
     "mocha": "^4.0.1",
     "standard": "^10.0.3"
