@@ -11,7 +11,7 @@ npm i weedout --save
 ```js
 const weedout = require('weedout')
 
-let foo = weedout({
+const foo = weedout({
   foo: {
     bar: 42
   }
@@ -23,7 +23,7 @@ let foo = weedout({
 ```js
 const weedout = require('weedout')
 
-let foo = weedout({
+const foo = weedout({
   foo: [{
     bar: 42
   }]

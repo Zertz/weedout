@@ -6,7 +6,7 @@ describe('weedout', () => {
   const weedout = require('../src')
 
   it('removes root keys', () => {
-    let src = {
+    const src = {
       foo: 'bar'
     }
 
@@ -16,7 +16,7 @@ describe('weedout', () => {
   })
 
   it('ignores undefined root keys', () => {
-    let src = {
+    const src = {
       foo: 'bar'
     }
 
@@ -28,7 +28,7 @@ describe('weedout', () => {
   })
 
   it('removes nested keys', () => {
-    let src = {
+    const src = {
       foo: {
         bar: {
           baz: '42'
@@ -42,7 +42,7 @@ describe('weedout', () => {
   })
 
   it('ignores undefined nested keys', () => {
-    let src = {
+    const src = {
       foo: {
         bar: {
           baz: '42'
@@ -62,7 +62,7 @@ describe('weedout', () => {
   })
 
   it('removes keys inside object arrays', () => {
-    let src = {
+    const src = {
       foo: [{
         bar: {
           baz: '3.14'
@@ -82,7 +82,7 @@ describe('weedout', () => {
   })
 
   it('removes keys inside object arrays inside object arrays', () => {
-    let src = {
+    const src = {
       foo: [{
         bar: [{
           baz: 'to'

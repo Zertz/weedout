@@ -1,7 +1,7 @@
 'use strict';
 
 (() => {
-  let weedout = function (obj, path) {
+  const weedout = function (obj, path) {
     const keys = path.split('.')
 
     for (let i = 0, length = keys.length; i < length; i++) {
