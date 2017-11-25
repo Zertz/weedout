@@ -3,7 +3,7 @@
 const assert = require('assert')
 
 describe('weedout', () => {
-  const weedout = require('../lib')
+  const weedout = require('../src')
 
   it('removes root keys', () => {
     let src = {
