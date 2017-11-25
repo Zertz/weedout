@@ -1,4 +1,4 @@
-# weedout [![Build Status](https://travis-ci.org/Zertz/weedout.png)](https://travis-ci.org/Zertz/weedout) [![NPM version](https://badge.fury.io/js/weedout.png)](http://badge.fury.io/js/weedout)
+# weedout [![Build Status](https://travis-ci.org/Zertz/weedout.png)](https://travis-ci.org/Zertz/weedout) [![NPM version](https://badge.fury.io/js/weedout.png)](http://badge.fury.io/js/weedout) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Removes the value at the specified path, also traversing object arrays.
 
@@ -11,7 +11,7 @@ npm i weedout --save
 ```js
 const weedout = require('weedout')
 
-let foo = weedout({
+const foo = weedout({
   foo: {
     bar: 42
   }
@@ -23,7 +23,7 @@ let foo = weedout({
 ```js
 const weedout = require('weedout')
 
-let foo = weedout({
+const foo = weedout({
   foo: [{
     bar: 42
   }]
@@ -38,15 +38,8 @@ let foo = weedout({
 
 I'd love for you to contribute and make weedout even better than it is today!
 
-### Getting started
-
 ```
 git clone https://github.com/Zertz/weedout.git
 npm install
 npm test
 ```
-
-### Guidelines
-
-- [Standard](https://github.com/feross/standard) style
-- Use ES2015 features when appropriate
